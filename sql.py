@@ -10,7 +10,6 @@ with sqlite3.connect("saper.db") as con:
         scope INTEGER
     )""")
 
-
     cur.execute("INSERT INTO users VALUES ('John', 1, 26, 243)")
 
     con.commit()
